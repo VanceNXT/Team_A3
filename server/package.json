@@ -1,0 +1,26 @@
+{
+  "name": "vanceNxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^92.0.0",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.12",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.14",
+    "routers": "^0.1.4",
+    "schema": "^0.2.1",
+    "validator": "^13.7.0"
+  }
+}

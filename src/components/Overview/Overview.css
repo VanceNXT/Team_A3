@@ -1,0 +1,35 @@
+.Overview-main {
+  background-color: rgb(233, 231, 225);
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 100px;
+}
+.overview-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header {
+  margin: 3rem;
+  position: relative;
+  font-family: poppins;
+}
+.Overview-content {
+  margin: 3rem;
+  font-weight: bold;
+  color:rgb(109, 109, 109);
+  line-height: 32px;
+  font-family: poppins-300;
+}
+
+@media screen and (max-width: 992px) {
+  .Overview-main {
+    width: 95%;
+    height: 50rem;
+  }
+  .overview-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
